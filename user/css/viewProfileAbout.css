@@ -1,0 +1,169 @@
+.uparrow img{
+	position: relative;
+	top: -27px;
+	left: 166%;
+}
+.aboutSec{
+	margin-top: 13px;
+	background: #F5F6F7;
+	height: 57px;
+	padding-left: 13px;
+	padding-right: 13px;
+	border-bottom: 1px solid #d3d6db;
+    border-radius: 2px 2px 0 0;
+}
+.upperInfo img{
+	padding-top: 13px;
+}
+.upperInfo h3{
+	padding-top: 16px;
+	color: #4b4f56;
+	font-size: 20px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 1;
+}
+.friendsAboutArea{
+	height: 310px;
+	background: #fff;
+	border-bottom: 1px solid #d3d6db;
+    border-radius: 2px 2px 0 0;
+}
+.friendFriendsSection{
+	margin-top: 13px;
+	background: #F5F6F7;
+	height: 57px;
+	padding-left: 13px;
+	padding-right: 13px;
+	border-bottom: 1px solid #d3d6db;
+    border-radius: 2px 2px 0 0;
+}
+.friendFriendsSection img{
+	padding-top: 13px;
+}
+.friendfriendBody{
+	background: #fff;
+	min-height: 20px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.friendfriendBody .mainCont{
+	background: #fff;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #e9ebee;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.friendfriendBody .mainCont .profileSection img{
+	width: 100px;
+	height: 100px;
+}
+.friendfriendBody .mainCont .profileSection .nameAndFriends{
+	margin-top: 30px;
+}
+.friendfriendBody .mainCont .profileSection .nameAndFriends h4{
+	color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.friendfriendBody .mainCont .profileSection .nameAndFriends h4 a{
+	text-decoration: none;
+	color: #365899;
+    cursor: pointer;
+}
+.friendfriendBody .mainCont .profileSection .nameAndFriends h6{
+	color: #90949c;
+	direction: ltr;
+    line-height: 1.34;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.friendPhotosSection{
+	margin-top: 13px;
+	background: #F5F6F7;
+	height: 57px;
+	padding-left: 13px;
+	padding-right: 13px;
+	border-bottom: 1px solid #d3d6db;
+    border-radius: 2px 2px 0 0;
+}
+.friendPhotosSection img{
+	padding-top: 13px;
+}
+.friendPhotos{
+	background: #fff;
+}
+.friendPhotos .postPhotos img{
+	padding:8px;
+	width: 204px;
+	height: 204px; 
+}
+.nav{
+	display: block;
+}
+.sideMenu{
+	border-right: 1px solid #d3d6db;
+}
+.friendsAboutArea .sideMenu a .sideMainNavArea{
+	height: 62px;
+	padding-top: 16px;
+	padding-left: 16px;
+}
+.sideMenu ul li{
+	display: block;
+}
+.friendsAboutArea .sideMenu a{
+	color: #90949c;
+	font-weight: 450;
+}
+.friendsAboutArea .sideMenu .active .sideMainNavArea{
+	border-left: 3px solid #365899;
+	font-weight: 600;
+	color: #000;
+}
+.friendsAboutArea .sideMenu a:hover{
+	text-decoration: none;
+	color: #000;
+}
+.allContentArea{
+	padding:16px 18px;
+	padding-left: 5%;
+}
+.allContentArea .Information h3{
+	font-size: 14px;
+    line-height: 18px;
+    color: #4b4f56;
+    margin-bottom: 0px;
+}
+.allContentArea .Information h4{
+	font-size: 12px;
+    line-height: 18px;
+    color: #365899;
+    margin-bottom: 0px;
+}
+.allContentArea .Information h4 span{
+	color: #90949c;
+}
+.allContentArea .work{
+	padding-top: 7px;
+}
+.allContentArea .location{
+	padding-top: 0px;
+}
+.allContentArea .friendsNo{
+	padding-top: 7px;
+}
+.allContentArea .Information h3{
+	font-size: 14px;
+    line-height: 18px;
+    color: #4b4f56;
+    margin-bottom: 0px;
+}

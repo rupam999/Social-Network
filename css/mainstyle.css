@@ -1,0 +1,192 @@
+.top_shair{
+	background-color: #f4f4f4;
+	color:#737373;
+	height: 2%;
+	padding-right: 40px;
+}
+.sep_login{
+	padding-right: 8px;
+	color: #000;
+}
+.sep_register{
+	padding-left: 8px;
+	color:#000;
+}
+.sep_login:hover{
+	padding-right: 8px;
+	color: #000;
+}
+.sep_register:hover{
+	padding-left: 8px;
+	color:#000;
+}
+.facebook{
+	width: 38px;
+	background-color: #3b5999;
+}
+.twitter{
+	width: 38px;
+	background-color: #55acee;
+}
+.google_plus{
+	width: 38px;
+	background-color: #dd4b39;
+}
+.facebook .social_icon{
+	color: #fff;
+}
+.twitter .social_icon{
+	color: #fff;
+}
+.google_plus .social_icon{
+	color: #fff;
+}
+.upper{
+	background-color: #fff;
+	align-items:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+    box-shadow: 1px 0px 5px rgba(77, 77, 77, 0.2);
+    -webkit-box-shadow: 1px 0px 5px rgba(77, 77, 77, 0.2);
+    -moz-box-shadow: 1px 0px 5px rgba(77, 77, 77, 0.2);
+}
+.logbutton{
+	color:white;
+	height: 40px;
+	font-weight: bold;
+	background-color:#0099ff;
+	border-radius: 30px;
+	border: 1px solid white;
+}
+.logbutton:hover{
+	color:white;
+	font-weight: bold;
+	border-radius: 30px;
+	background-color:#000;
+	border: 1px solid #000;
+}
+.logbutton:active{
+	color:white;
+	font-weight: bold;
+	background-color:#f4e2ff;
+	border: 1px solid white;
+}
+a.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff7ff;
+    font-family: monospace;
+}
+.main_cont{
+	height: 500px;
+}
+.in_main_cont{
+	padding: 65px 0px;
+}
+.jumbotron{
+	padding-top: 10px;
+}
+.jumbotron .text_area{
+	position: relative;
+    text-align: center;
+    min-height: 350px;
+}
+.jumbotron .main_text{
+	position: absolute;
+	left: 3%;
+	right: 1%;
+    top: 21%;
+}
+.card-body{
+	padding: 0px;
+}
+.card{
+	border-radius: 0px;
+}
+#register{
+	color: #ffffff;
+    background: #333333;
+    padding: 8px 24px;
+    margin-bottom: 5px;
+    transition: all 0s;
+    background: rgba(0,0,0,0.00);
+}
+a.nav-link.active.show {
+    background: rgba(0,0,0,0.0);
+    color: #fff;
+}
+a.nav-link.active.show {
+    border-color:rgba(0,0,0,0.0);
+    border-radius: 0px;
+}
+a.nav_log_reg{
+	background: #0099ff;
+}
+a.nav_log_reg p{
+	text-align: center;
+	font-size: 20px;
+}
+h1{
+	font-size: 38px;
+    font-weight: 700;
+}
+h6{
+	font-weight: 400;
+    line-height: 24px;
+}
+.card-body form{
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+}
+.banr-head input[type="email"], input[type="text"], input[type="password"]{
+	color: #fff;
+}
+input.form-control {
+    border-radius: 30px;
+    border: 1px solid #0099ff;
+    height: 40px;
+    font-size: 14px;
+}
+input.reg_log {
+    background: #424242;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 30px;
+    margin-bottom: 15px;
+}
+.clear{
+	clear: both;
+}
+.gender{
+	float: left;
+}
+.gender label{
+	padding: 0px;
+}
+.logbutton2{
+	color:white;
+	height: 40px;
+	font-weight: bold;
+	background-color:#0099ff;
+	border-radius: 30px;
+}
+.logbutton2:hover{
+	color:white;
+	font-weight: bold;
+	border-radius: 30px;
+	background-color:#000;
+	border: 1px solid #000;
+}
+.logbutton2:active{
+	color:white;
+	font-weight: bold;
+	background-color:#f4e2ff;
+	border: 1px solid white;
+}
+footer span a{
+	color:#0099ff;
+}

@@ -1,0 +1,72 @@
+body{
+   max-width: 300px;
+   max-height: 420px;
+   min-width: 300px;
+   min-height: 420px;
+   overflow-x: hidden;
+}
+.card{
+   max-width: 300px;
+   max-height: 420px;
+   min-width: 300px;
+   min-height: 420px;
+   overflow-x: hidden;
+}
+.userArea .card-header .active{
+    background: #2ecc71;
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+}
+.heading h3{
+    font-size: 16px;
+}
+.messageSection{
+    padding-top: 10px;
+    max-height: 310px;
+    min-height: 310px;
+    overflow-y: scroll;
+}
+.msg_a{
+    position:relative;
+    background:#FDE4CE;
+    padding:10px;
+    min-height:10px;
+    margin-bottom:5px;
+    margin-right:10px;
+    border-radius:5px;
+    width: 250px;
+    margin-left: 20px;
+}
+.msg_a:before{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: transparent #FDE4CE transparent transparent;
+    left:-20px;
+    top:7px;
+}
+.msg_b{
+    background:#EEF2E7;
+    padding:10px;
+    min-height:15px;
+    margin-bottom:5px;
+    position:relative;
+    margin-left:10px;
+    border-radius:5px;
+    word-wrap: break-word;
+    width: 250px;
+    
+}
+.msg_b:after{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: transparent transparent transparent #EEF2E7;
+    right:-20px;
+    top:7px;
+}

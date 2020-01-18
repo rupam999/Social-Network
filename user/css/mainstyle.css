@@ -1,0 +1,337 @@
+body{
+	background-color: #e6ecf0;
+}
+.upper_nav{
+  box-shadow: 0 3px 3px rgba(0,0,0,.25);
+  margin-bottom: 65px;
+}
+nav.navbar.navbar-expand-md.fixed-top {
+  box-shadow: 0 3px 3px rgba(0,0,0,.25);
+}
+nav.navbar.navbar-expand-md {
+  background-color: #ffffff;
+  color: #66757f;
+  font-weight: normal;
+}
+a.nav-link {
+  color: #66757f;
+  font-weight: 600;
+  font-size: 15px;
+}
+a.dropdown-toggle {
+  color: #66757f;
+  font-weight: 600;
+  font-size: 15px;
+}
+nav.navbar.navbar-expand-md {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.collapse.navbar-collapse {
+  height: 50px;
+}
+div.body_area {
+  margin-top: 10px;
+}
+.navdrop{
+  padding-top: 7px;
+}
+.dropdown-toggle::after {
+  display:none;
+}
+input.form-area {
+  margin-top: 7px;
+  height: 33px;
+  width: 220px;
+  margin-right: 10px;
+  border-radius: 30px;
+  background-color: #f5f8fa;
+  border: 1px solid #e6ecf0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #14171a;
+  display: block;
+  font-size: 13px;
+}
+input.form-area:focus{
+  border: 2px solid #1da1f2;
+  background: #fff;
+}
+.logbutton{
+  background-color: #0099ff;
+  border: 1px solid #0099ff;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+.logbutton:hover{
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 30px;
+}
+input.btn.btn-default.logbutton {
+  margin-top: -2px;
+  width: 80px;
+  padding: 7px;
+}
+.account{
+  width: 305px;
+  padding: 10px;
+}
+.account_profile img{
+  width: 90px;
+  height: 70px;
+  border-radius: 5px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #66757f;
+  font-weight: 600;
+  font-size: 15px;
+}
+.navbar-inverse .navbar-nav>li>a:focus{
+  color: red;
+  font-weight: 600;
+  font-size: 15px;
+}
+.account_details h5{
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.account_details h6{
+  font-weight: 450;
+  font-size: 11px;
+  text-transform: lowercase;
+}
+.account_details h6 a{
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #3498db;
+}
+.logout_btn{
+  background-color: #0099ff;
+  border: 1px solid #0099ff;
+  color: #fff;
+  font-weight: 600;
+  width: 110%;
+}
+.logout_btn:hover{
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  width: 110%;
+}
+div.settings p {
+  margin-bottom: 6px;
+}
+div.settings p a {
+  color: #050505;
+  text-decoration: none;
+  font-size: 14px;
+}
+div.settings p a:hover {
+  color: #7f8c8d;
+  text-decoration: none;
+}
+ul .dropdown a .common_icon{
+  border-radius: 0px;
+  width: 17px;
+  height: 17px;
+}
+.search_bar{
+  margin-right: 20px;
+}
+.upload_btn{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+ul .dropdown a img{
+  border-radius: 30px;
+  width: 36px;
+  height: 36px;
+}
+.modal-header{
+  padding: 12px 10px;
+  border-bottom: solid 1px rgba(29,161,242,0.25);
+  background: #fff;
+}
+.modal-header .modal-title{
+  color: red;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #14171a;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.close_modal{
+  color: #657786;
+}
+.modal-body{
+  background-color: #1DA1F2;
+  background: rgba(29,161,242,0.1);
+  padding: 8px 12px;
+}
+a.nav-link {
+  margin-right: 10px;
+  font-size: 16px;
+}
+a.dropdown-toggle {
+  margin-right: 20px;
+  font-size: 16px;
+}
+.upload_profile img{
+  width: 40px;
+  border-radius: 30px;
+}
+.upload_icon{
+  margin-right: 20px;
+}
+div.dz-default.dz-message {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #0099ff;
+  border-radius: 5px;
+  background: white;
+}
+/**
+ * FilePond Custom Styles
+ */
+.filepond--drop-label {
+  color: #000;
+}
+.filepond--label-action {
+  text-decoration-color: #babdc0;
+}
+.filepond--panel-root {
+  background-color: #fff;
+  height: 40px;
+  border: 2px dashed #1DA1F2;
+}
+.filepond--item-panel {
+  background-color: #595e68;
+}
+.filepond--drip-blob {
+  background-color: #7f8a9a;
+}
+.upload_icon p{
+  font-size: 22px;
+  padding: 2px 8px;
+  border: 1px solid rgba(29,161,242,0.01);
+}
+.upload_icon p:hover{
+  background-color: ;
+  border: 1px solid #1DA1F2;
+}
+.friend_request_list{
+  width: 430px;
+}
+.friend_request_list .list_nav_bar h5 a{
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  direction: ltr;
+}
+.friend_request_list .list_nav_bar h5{
+  border-bottom: 1px solid #D3D6DB;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+.request_list{
+  padding: 4px 0px 4px 8px;
+}
+.list_profile_pic img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.list_profile_pic h6{
+  padding-top: 9px;
+}
+.list_profile_pic h6 a{
+  color: #365899;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 13px;
+}
+.request_list{
+  /*min-height: 80px;*/
+}
+.confirm_btn{
+  background-color: #4267b2;
+  border-color: #4267b2;
+  height:25px;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 0;
+}
+.remove_btn{
+  color: #bdc3c7;
+  border-color: #bdc3c7;
+  height:25px;
+  color: #000;
+  font-weight: 500;
+  padding-top: 0;
+}
+.suggection_list_nav{
+  padding: 4px 0px 4px 8px;
+}
+.friend_request_list .list_nav_bar h5 a{
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  direction: ltr;
+}
+.message_list{
+  width: 430px;
+}
+.message_list .list_message_area h5{
+  border-bottom: 1px solid #D3D6DB;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+.message_list .list_message_area h5 a{
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  direction: ltr;
+}
+.message_area{
+  padding: 4px 0px 4px 8px;
+}
+.message_area .message_cont h5 a{
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  direction: ltr;
+  margin-bottom: 0;
+}
+.message_area .message_cont p a{
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  direction: ltr;
+  margin: 0;
+}
+.navbar{
+  padding-left: 4%;
+  padding-right: 6%;
+}

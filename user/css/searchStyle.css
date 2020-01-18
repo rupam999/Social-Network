@@ -1,0 +1,74 @@
+.mainSearchSec{
+	margin-right: 0px;
+	min-height: 200px;
+	background: #fff;
+	padding-bottom: 16px;
+}
+.insideSecarchResult{
+	margin-top: 10px;
+	padding: 13px 13px;
+	border: 1px solid #dadde1;
+}
+.insideSecarchResult .profileSection img{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+.insideSecarchResult .personalDetails{
+	position: relative;
+    left: -2%;
+    padding-top: 8px;}
+.insideSecarchResult .personalDetails h3{
+	color: #365899;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+.insideSecarchResult .personalDetails h5{
+	font-size: 12px;
+    line-height: 16px;
+    color: #4b4f56;
+    overflow: hidden;
+    padding-top: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.insideSecarchResult .personalDetails h6{
+	font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #90949c;
+}
+.insideSecarchResult .personalDetails .addFriend button{
+	float: left;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 2px 0 0 2px;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+}
+.insideSecarchResult .personalDetails h3 a{
+	text-decoration: none;
+	color: #365899;
+}
+.insideSecarchResult .personalDetails h3 a:hover{
+	text-decoration: none;
+	color: #365899;
+}
+.upperNavAll{
+	background: red;
+	height: 25px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	border:0px;
+}
