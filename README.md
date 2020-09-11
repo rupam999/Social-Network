@@ -1,1 +1,1 @@
-# Social-Networking-Site using PHP and MySQL
+# Social Network using PHP and MySQL
