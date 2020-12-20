@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 18, 2020 at 05:24 PM
+-- Generation Time: Dec 20, 2020 at 04:10 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -189,7 +189,8 @@ INSERT INTO `login` (`id`, `name`, `email`, `gender`, `password`, `first_login`,
 (7, 'RUPAM CHAKRABORTY', 'test@test.com', 'male', 'fc5b1fe18236e6e1bc92275b93432281', 1, 0),
 (8, 'RUPAM CHAKRABORTY', 'rup@rup.com', 'male', 'd8578edf8458ce06fbc5bb76a58c5ca4', 1, 1),
 (9, 'RUPAM CHAKRABORTY', 'a@aa.com', 'male', '26a58b9e6ef5c3d61aa04d820ba35ba1', 1, 1),
-(10, 'Arihant', 'ari@gmail.com', 'male', 'd8578edf8458ce06fbc5bb76a58c5ca4', 1, 0);
+(10, 'Arihant', 'ari@gmail.com', 'male', 'd8578edf8458ce06fbc5bb76a58c5ca4', 1, 0),
+(11, 'Dummy User', 'abc@abc.com', 'male', '4adcca49b3b1e5a08ac202f5d5a9e688', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -228,7 +229,9 @@ INSERT INTO `log_profile` (`u_id`, `profile_img`, `datee`) VALUES
 (8, '04-12-2018-1543902449.jpg', '2018-12-04'),
 (8, '04-12-2018-1543902449.jpg', '2018-12-04'),
 (10, '08-11-2019-1573236936.jpg', '2019-11-08'),
-(10, '08-11-2019-1573236936.jpg', '2019-11-08');
+(10, '08-11-2019-1573236936.jpg', '2019-11-08'),
+(11, '20-12-2020-1608433655.png', '2020-12-20'),
+(11, '20-12-2020-1608433655.png', '2020-12-20');
 
 -- --------------------------------------------------------
 
@@ -310,6 +313,7 @@ CREATE TABLE `personal_details` (
 --
 
 INSERT INTO `personal_details` (`u_id`, `name`, `email`, `day`, `month`, `year`, `c_city`, `p_city`, `school`, `college`, `company`, `about_me`, `intersted`, `profile_pic`, `cover_pic`) VALUES
+(11, 'Dummy User', 'abc@abc.com', 10, 10, 1995, 'India', 'hkjh', 'jkh', 'khjk', 'kjh', '', '', '20-12-2020-1608433655.png', '20-12-2020-1608433655.png'),
 (10, 'Arihant', 'ari@gmail.com', 10, 8, 1996, 'Bangalore', 'Bangalore', 'BGA', 'AIT', '', '', '', '08-11-2019-1573236936.jpg', '08-11-2019-1573236936.jpg'),
 (3, 'Arijit Kundu', 'arijit@gmail.com', 27, 11, 2018, 'Kolkata', 'Belda', 'BGA', 'UEM', 'none', '', '', '27-11-2018-1543293175.jpg', '27-11-2018-1543293081.jpg'),
 (6, 'ARNAV KUMAR', 'arnav.becs.16@acharya.ac.in', 7, 8, 1999, 'bangalore', 'Bangalore', 'acharya college', 'acharya', 'Rupam company', '', '', '30-11-2018-1543561856.jpg', '30-11-2018-1543561871.jpg'),
@@ -391,7 +395,9 @@ INSERT INTO `posts` (`post_id`, `u_id`, `img_text`, `image`, `profile_img`, `onl
 (38, 8, 'gdcdehghc', '04-12-2018-1543902549.jpg', 0, 0, 0, 0, '0000-00-00'),
 (39, 10, '', '08-11-2019-1573236936.jpg', 1, 0, 0, 0, '0000-00-00'),
 (40, 10, '', '08-11-2019-1573236936.jpg', 2, 0, 0, 0, '0000-00-00'),
-(41, 10, 'This is a normal Post', '', 0, 1, 0, 0, '0000-00-00');
+(41, 10, 'This is a normal Post', '', 0, 1, 0, 0, '0000-00-00'),
+(42, 11, '', '20-12-2020-1608433655.png', 1, 0, 0, 0, '0000-00-00'),
+(43, 11, '', '20-12-2020-1608433655.png', 2, 0, 0, 0, '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -436,7 +442,9 @@ INSERT INTO `profile_image` (`image_id`, `u_id`, `name`, `category`, `p_date`) V
 (22, 8, '04-12-2018-1543902449.jpg', 1, '0000-00-00'),
 (23, 8, '04-12-2018-1543902449.jpg', 2, '0000-00-00'),
 (24, 10, '08-11-2019-1573236936.jpg', 1, '0000-00-00'),
-(25, 10, '08-11-2019-1573236936.jpg', 2, '0000-00-00');
+(25, 10, '08-11-2019-1573236936.jpg', 2, '0000-00-00'),
+(26, 11, '20-12-2020-1608433655.png', 1, '0000-00-00'),
+(27, 11, '20-12-2020-1608433655.png', 2, '0000-00-00');
 
 --
 -- Indexes for dumped tables
@@ -546,7 +554,7 @@ ALTER TABLE `groupmember`
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `personal_chat`
@@ -558,13 +566,13 @@ ALTER TABLE `personal_chat`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT for table `profile_image`
 --
 ALTER TABLE `profile_image`
-  MODIFY `image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
